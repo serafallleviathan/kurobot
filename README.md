@@ -77,6 +77,51 @@ https://youtu.be/hhvQwPG2EF4
 > node index.js
 > Tinggal scan kode qr yeee...done
 ```
+* apikey dan owner
+
+Tempat : ```./settings/ramlan.json/101```
+
+Contoh default :
+
+```
+{
+    "botName": "kev",
+    "ownerName": "kevin apta",
+    "BarBarKey": "PmPuNA4yCZa3iuBGs5Nw",
+    "VhtearKey": "c1d162b46e634f389efa1ac715f03d03",
+    "NaufalKey": "0LeVii-SNjD2G-QBls0v", 
+    "Lol": "847de7716f17a51eeba4235c", 
+    "TobzKe": "BotWeA",
+    "XteamKey": "58a7334f7c2c0d93",      
+    "ownerNumber": "6283141621181@s.whatsapp.net, 6282151717363@s.whatsapp.net",
+    "botPrefix": "!", 
+    "batre": "85", 
+    "chargi": "yes", 
+    "jsjsn": "hah", 
+    "GrupLimitz": "2",
+    "UserLimitz": "20",
+    "UserLimitz": "2",
+    "Updateti": "22/03 00:37:26",
+    "Updath": "fitur update",
+    "orr": "ytmp4",
+    "errr": "22/03 00:37:26",
+    "CeerTod": "𝐕𝐄𝐑𝐈𝐅𝐈𝐄𝐃"
+}
+```
+* Kontak owner
+
+Tempat : ```./index.js/101```
+
+Contoh default :
+
+```
+const vcard = 'BEGIN:VCARD\n'
++ 'VERSION:3.0\n'
++ 'FN:kevin\n' // Nama
++ 'ORG:kev;\n' // Nama bot
++ 'TEL;type=CELL;type=VOICE;waid=6283141621181:+62 831-4162-1181\n' // Nomor owner
++ 'END:VCARD' 
+```
 
 
 Ket: Aktiv sesuai termux dan owner nya online
